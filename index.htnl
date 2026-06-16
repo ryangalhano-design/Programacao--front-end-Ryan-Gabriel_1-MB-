@@ -1,16 +1,88 @@
-<h1>Agrinho<h1>
-
-<p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agrinho Sustentável</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<h1>Meu blog tech</h1>
-<p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+
+<header>
+  <h1>🌱 Agrinho Sustentável</h1>
+  <p>Conectando o campo, a cidade e o meio ambiente de forma inteligente</p>
+</header>
+
+<nav>
+  <a href="#sobre">Sobre</a>
+  <a href="#problema">Desafio</a>
+  <a href="#solucoes">Soluções</a>
+  <a href="#links">Links úteis</a>
+</nav>
+
+<section class="hero">
+  <h2>🌎 Um futuro sustentável depende de todos nós</h2>
+  <p>Campo e cidade podem crescer juntos sem destruir o meio ambiente.</p>
+</section>
+
+<section id="sobre">
+  <h2>🌿 O que é o Agrinho?</h2>
+  <p>
+    O programa Agrinho incentiva estudantes a entenderem a relação entre o campo, a cidade e o meio ambiente,
+    promovendo cidadania e sustentabilidade.
+  </p>
+</section>
+
+<section id="problema">
+  <h2>⚠️ O grande desafio</h2>
+  <p>
+    A expansão das cidades e a agricultura precisam acontecer sem destruir florestas, poluir rios ou esgotar recursos naturais.
+    O desafio é equilibrar produção e preservação.
+  </p>
+</section>
+
+<section id="solucoes">
+  <h2>💡 Ideias para um mundo mais sustentável</h2>
+
+  <div class="cards">
+    <div class="card">♻️ Reciclar e reduzir lixo</div>
+    <div class="card">🌳 Plantar árvores em áreas urbanas</div>
+    <div class="card">🚜 Agricultura sustentável (sem agrotóxicos excessivos)</div>
+    <div class="card">💧 Economizar água no campo e na cidade</div>
+    <div class="card">🚲 Usar transporte sustentável</div>
+    <div class="card">🌾 Apoiar produtores locais</div>
+  </div>
+</section>
+
+<section id="links">
+  <h2>🔗 Sites importantes sobre sustentabilidade</h2>
+
+  <ul>
+    <li>
+      <a href="https://www.fao.org" target="_blank">
+        Organização das Nações Unidas para Alimentação e Agricultura (FAO)
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.embrapa.br" target="_blank">
+        Embrapa - Agricultura sustentável no Brasil
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.wwf.org" target="_blank">
+        WWF - Proteção da natureza e biodiversidade
+      </a>
+    </li>
+  </ul>
+</section>
+
+<footer>
+  <p>🌱 Projeto educativo inspirado no Agrinho - Sustentabilidade para o futuro</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
-</html>ona
+</html>
